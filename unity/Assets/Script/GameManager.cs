@@ -3,11 +3,11 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public TaskManager talkManager;
     public GameObject talkPanel;
     public Text talkText;
     public GameObject scanObject;
-    public bool isAction { get; }
+    public bool isAction { get; private set; } = false;
 
     public void Action(GameObject scanObj)
     {
