@@ -9,7 +9,7 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
-	"last_search.66F56946" = "tilemap"
+	"last_search.66F56946" = ""
 	"OpenInspectorPreview.66F56946" = "0"
 	"currentGroup.66F56946" = null
 	"picker_window_position_offset.075BCD15" = "277;185;320;550"
@@ -72,6 +72,11 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	""
+	"slice"
+	"sprite editor"
+	"sp"
+	"s"
 ]
 searchItemFavorites = [
 ]
