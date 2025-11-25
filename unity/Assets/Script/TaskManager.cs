@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TaskManager : MonoBehaviour
 {
-    public Dictionary<int, string[]> _talkData { get; private set; };
+    public Dictionary<int, string[]> _talkData { get; private set; }
 
     private void Awake()
     {
