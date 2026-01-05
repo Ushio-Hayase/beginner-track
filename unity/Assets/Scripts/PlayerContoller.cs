@@ -157,7 +157,7 @@ public class PlayerController : MonoBehaviour
         if (isCrouch)
             Crouch();
 
-        myRigid.velocity = transform.up * jumpForce;
+        myRigid.linearVelocity = transform.up * jumpForce;
     }
 
 
