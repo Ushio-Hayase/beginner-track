@@ -57,6 +57,11 @@ public class GunController : MonoBehaviour
     }
 
 
+    public Gun GetGun()
+    {
+        return currentGun;
+    }
+
     // 연사속도 재계산
     private void GunFireRateCalc()
     {
